@@ -26,4 +26,7 @@ class CorbinrobbPalindromeTest < Minitest::Test
     assert 12321.palindrome?
   end
 
+  def test_empty
+    refute "".palindrome?
+  end
 end

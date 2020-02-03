@@ -4,7 +4,7 @@ require "corbinrobb_palindrome/version"
 module CorbinrobbPalindrome
   # Returns true for a palindrome and false otherwise
   def palindrome?
-    processed_content == processed_content.reverse
+    processed_content == processed_content.reverse && processed_content != ""
   end
 
   private
